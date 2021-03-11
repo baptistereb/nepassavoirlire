@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+ 
+#rotamiddle {
+    position: absolute;
+	height: 30%;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rota {
+    -webkit-animation: rotating 4s linear infinite;
+}
+
+.png1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.png2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    opacity: 0%;
+}
+
+.png2:hover {
+    opacity: 100%;
+}
+
+#canvas {
+    background-color: black;
+    z-index: -1;
+    width: 100%;
+    height: auto"
+}
