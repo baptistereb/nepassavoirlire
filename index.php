@@ -11,7 +11,7 @@
 	  	var ctx = document.getElementById('canvas').getContext('2d');
 	}
 	</script>
-<body onload="draw();">
+<body onload="draw();" bgcolor="black">
 	<canvas id="canvas"></canvas>
 	<div id="rotamiddle">
 		<img src="img/middle.png" height="100%" class="rota">
