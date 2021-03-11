@@ -22,6 +22,12 @@ body {
     transform: translate(-50%, -50%);
 }
 
+#rotamiddle:hover {
+    -webkit-transform: scale(1.5);
+    animation: all 5s ease;
+}
+
+
 .rota {
     -webkit-animation: rotating 4s linear infinite;
 }
@@ -43,6 +49,14 @@ body {
 
 .png2:hover {
     opacity: 100%;
+}
+
+.nyan {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 #canvas {
