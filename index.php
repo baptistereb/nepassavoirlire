@@ -15,6 +15,19 @@
 			<img src="img/1.png" class="png1">
 			<img src="img/2.png" class="png2">
 
+			
+			<img src="img/cat.png" class="pngb">
+
+			<img src="img/man.png" class="rota2">
+			<img src="img/man.png" class="rota2">
+			<img src="img/man.png" class="rota2">
+			<img src="img/man.png" class="rota2">
+			<img src="img/man.png" class="rota2">
+
+			<img src="img/baby.png" class="pngb2">
+
+			<img src="img/smart.png" class="upsidedown">
+
 			<img src="img/nyancat.gif" class="nyan">
 		</body>
 </html>

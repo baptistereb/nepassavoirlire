@@ -22,13 +22,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#rotamiddle:hover {
-    -webkit-transform: scale(1.5);
-    animation: all 5s ease;
-}
-
 
 .rota {
+    -webkit-animation: rotating 4s linear infinite;
+}
+
+.rota2 {
+    position: inline-block;
     -webkit-animation: rotating 4s linear infinite;
 }
 
@@ -37,6 +37,20 @@ body {
     right: 0;
     bottom: 0;
     height: 100%;
+}
+
+.pngb {
+    position: absolute;
+    height: 30%;
+    left: 0;
+    bottom: 0;
+}
+
+.pngb2 {
+    position: absolute;
+    height: 30%;
+    left: 40%;
+    bottom: 0;
 }
 
 .png2 {
@@ -57,6 +71,13 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.upsidedown {
+    position: absolute;
+    left: 75%;
+    top: 0;
+    height: 30%;
 }
 
 #canvas {
